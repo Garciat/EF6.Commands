@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "EntityFramework": "6.1.3",
+    "Npgsql": "2.2.5",
+    "Npgsql.EntityFramework": "2.2.5",
+    "EF6.Commands": "1.1.0-*"
+  },
+  "commands": {
+    "ef": "EF6.Commands"
+  },
+  "resource": [ "**/*.resources" ],
+  "resources": [ "**/*.resources" ],
+  "content": [ "**/*.resources" ],
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      },
+      "dependencies": { }
+    }
+  }
+}
