@@ -177,10 +177,5 @@ namespace EF6.Commands
             
             return configuration;
         }
-
-        protected virtual MigrationScaffolder CreateScaffolder(IServiceProvider services)
-        {
-            return null;
-        }
     }
 }
