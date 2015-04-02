@@ -2,6 +2,23 @@
 
 EF6 code-first migrations on ASP.NET vNext!
 
+### Install
+
+https://www.nuget.org/packages/EF6.Commands/
+
+```
+{
+  "dependencies": {
+    "EF6.Commands": "1.1.0-*"
+  },
+  "commands": {
+    "ef": "EF6.Commands"
+  }
+}
+```
+
+You will have to create a `DbMigrationConfiguration` class yourself. See the [test](test) directory for reference.
+
 ### Usage
 
 Dump of CLI help info:
