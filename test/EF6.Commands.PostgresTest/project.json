@@ -8,9 +8,6 @@
   "commands": {
     "ef": "EF6.Commands"
   },
-  "resource": [ "**/*.resources" ],
-  "resources": [ "**/*.resources" ],
-  "content": [ "**/*.resources" ],
   "frameworks": {
     "dnx451": {
       "frameworkAssemblies": {
